@@ -1,0 +1,6 @@
+generic\BaseTest.class
+generic\Result.class
+generic\Utility.class
+script\Login.class
+generic\IAutoConst.class
+page\LoginPage.class
