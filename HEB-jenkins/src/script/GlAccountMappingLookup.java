@@ -9,13 +9,13 @@ import page.GlAccountMappingLookupPage;
 
 public class GlAccountMappingLookup extends BaseTest{
 	
+//	@Test
+//	public void menubar() throws Exception {
+//		String id="btnHeaderToggleMenuDivCollapseExpand";
+//		driver.findElement(By.id(id)).click();
+//		
+//	}
 	@Test
-	public void menubar() throws Exception {
-		String id="btnHeaderToggleMenuDivCollapseExpand";
-		driver.findElement(By.id(id)).click();
-		
-	}
-	@Test(priority=1)
 	public void glAccountMap() {
 		
 		String link="Finance";

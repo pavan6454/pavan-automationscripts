@@ -15,6 +15,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 @Listeners(Result.class)
 public abstract class BaseTest implements IAutoConst {
@@ -46,6 +47,12 @@ public abstract class BaseTest implements IAutoConst {
 		}else {
 			Reporter.log("Test :"+name+" is Passed",true);
 		}
+		
+	}
+	@AfterMethod
+	public void menubar() throws Exception {
+		String id="btnHeaderToggleMenuDivCollapseExpand";
+		driver.findElement(By.id(id)).click();
 		
 	}
 	

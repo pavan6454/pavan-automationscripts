@@ -5,6 +5,7 @@
     <classes>
       <class name="script.GlAccountMappingLookup">
         <methods>
+          <include name="menubar"/>
           <include name="closeApplication"/>
           <include name="openApplication"/>
           <include name="glAccountMap"/>

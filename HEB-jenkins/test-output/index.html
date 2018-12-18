@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>E:\pavan\HEB\HEB-jenkins\testng.xml</span>
+                    <span>E:\pavan\git-scripts\HEB-jenkins\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,11 +108,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="script.Login" hash-for-method="login">login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="script.GlAccountMappingLookup" hash-for-method="menubar">menubar</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -140,13 +135,6 @@
                   <span class="method-name">glAccountMap</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="menubar">
-                  </a> <!-- menubar -->
-                  <span class="method-name">menubar</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
@@ -167,7 +155,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\pavan\HEB\HEB-jenkins\testng.xml</span>
+            <span class="header-content">E:\pavan\git-scripts\HEB-jenkins\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -217,19 +205,15 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'script.Login')
-data.setCell(0, 3, 6174);
+data.setCell(0, 3, 6217);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'glAccountMap')
 data.setCell(1, 2, 'script.GlAccountMappingLookup')
-data.setCell(1, 3, 928);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'menubar')
-data.setCell(2, 2, 'script.GlAccountMappingLookup')
-data.setCell(2, 3, 105);
+data.setCell(1, 3, 1228);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -276,37 +260,37 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">5891 ms</span>
+                <span class="method-start">7499 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <span class="method-name">menubar</span>
+                <span class="method-start">13718 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
                 <span class="method-name">testResult([TestResult name=login status=SUCCESS method=Login.login()[pri:0, instance:script.Login@5622fdf] out...)</span>
-                <span class="method-start">12065 ms</span>
+                <span class="method-start">13807 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">script.GlAccountMappingLookup</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">menubar</span>
-                <span class="method-start">12065 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">testResult([TestResult name=menubar status=SUCCESS method=GlAccountMappingLookup.menubar()[pri:0, instance:scri...)</span>
-                <span class="method-start">12171 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
                 <span class="method-name">glAccountMap</span>
-                <span class="method-start">12172 ms</span>
+                <span class="method-start">13809 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">testResult([TestResult name=glAccountMap status=SUCCESS method=GlAccountMappingLookup.glAccountMap()[pri:1, ins...)</span>
-                <span class="method-start">13101 ms</span>
+                <span class="method-name">menubar</span>
+                <span class="method-start">15038 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">testResult([TestResult name=glAccountMap status=SUCCESS method=GlAccountMappingLookup.glAccountMap()[pri:0, ins...)</span>
+                <span class="method-start">15125 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">script.Login</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">closeApplication</span>
-                <span class="method-start">13102 ms</span>
+                <span class="method-start">15125 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

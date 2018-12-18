@@ -1,48 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
     <line>
       <![CDATA[Test :login is Passed]]>
     </line>
     <line>
-      <![CDATA[Test :menubar is Passed]]>
-    </line>
-    <line>
       <![CDATA[Test :glAccountMap is Passed]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="13266" started-at="2018-12-14T05:55:46Z" finished-at="2018-12-14T05:55:59Z">
+  <suite name="Suite" duration-ms="15240" started-at="2018-12-18T09:47:59Z" finished-at="2018-12-18T09:48:14Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13266" started-at="2018-12-14T05:55:46Z" finished-at="2018-12-14T05:55:59Z">
+    <test name="Test" duration-ms="15240" started-at="2018-12-18T09:47:59Z" finished-at="2018-12-18T09:48:14Z">
       <class name="script.GlAccountMappingLookup">
-        <test-method status="PASS" signature="menubar()[pri:0, instance:script.GlAccountMappingLookup@4883b407]" name="menubar" duration-ms="105" started-at="2018-12-14T05:55:58Z" finished-at="2018-12-14T05:55:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- menubar -->
-        <test-method status="PASS" signature="testResult(org.testng.ITestResult)[pri:0, instance:script.GlAccountMappingLookup@4883b407]" name="testResult" is-config="true" duration-ms="0" started-at="2018-12-14T05:55:58Z" finished-at="2018-12-14T05:55:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=menubar status=SUCCESS method=GlAccountMappingLookup.menubar()[pri:0, instance:script.GlAccountMappingLookup@4883b407] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Test :menubar is Passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testResult -->
-        <test-method status="PASS" signature="glAccountMap()[pri:1, instance:script.GlAccountMappingLookup@4883b407]" name="glAccountMap" duration-ms="928" started-at="2018-12-14T05:55:58Z" finished-at="2018-12-14T05:55:59Z">
+        <test-method status="PASS" signature="glAccountMap()[pri:0, instance:script.GlAccountMappingLookup@4883b407]" name="glAccountMap" duration-ms="1228" started-at="2018-12-18T09:48:13Z" finished-at="2018-12-18T09:48:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- glAccountMap -->
-        <test-method status="PASS" signature="testResult(org.testng.ITestResult)[pri:0, instance:script.GlAccountMappingLookup@4883b407]" name="testResult" is-config="true" duration-ms="1" started-at="2018-12-14T05:55:59Z" finished-at="2018-12-14T05:55:59Z">
+        <test-method status="PASS" signature="menubar()[pri:0, instance:script.GlAccountMappingLookup@4883b407]" name="menubar" is-config="true" duration-ms="86" started-at="2018-12-18T09:48:14Z" finished-at="2018-12-18T09:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menubar -->
+        <test-method status="PASS" signature="testResult(org.testng.ITestResult)[pri:0, instance:script.GlAccountMappingLookup@4883b407]" name="testResult" is-config="true" duration-ms="0" started-at="2018-12-18T09:48:14Z" finished-at="2018-12-18T09:48:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=glAccountMap status=SUCCESS method=GlAccountMappingLookup.glAccountMap()[pri:1, instance:script.GlAccountMappingLookup@4883b407] output={null}]]]>
+                <![CDATA[[TestResult name=glAccountMap status=SUCCESS method=GlAccountMappingLookup.glAccountMap()[pri:0, instance:script.GlAccountMappingLookup@4883b407] output={null}]]]>
               </value>
             </param>
           </params>
@@ -54,7 +37,7 @@
         </test-method> <!-- testResult -->
       </class> <!-- script.GlAccountMappingLookup -->
       <class name="script.Login">
-        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.Login@5622fdf]" name="openApplication" is-config="true" duration-ms="5879" started-at="2018-12-14T05:55:46Z" finished-at="2018-12-14T05:55:52Z">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.Login@5622fdf]" name="openApplication" is-config="true" duration-ms="7422" started-at="2018-12-18T09:47:59Z" finished-at="2018-12-18T09:48:06Z">
           <params>
             <param index="0">
               <value>
@@ -70,11 +53,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="login()[pri:0, instance:script.Login@5622fdf]" name="login" duration-ms="6174" started-at="2018-12-14T05:55:52Z" finished-at="2018-12-14T05:55:58Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:script.Login@5622fdf]" name="login" duration-ms="6217" started-at="2018-12-18T09:48:06Z" finished-at="2018-12-18T09:48:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="testResult(org.testng.ITestResult)[pri:0, instance:script.Login@5622fdf]" name="testResult" is-config="true" duration-ms="0" started-at="2018-12-14T05:55:58Z" finished-at="2018-12-14T05:55:58Z">
+        <test-method status="PASS" signature="menubar()[pri:0, instance:script.Login@5622fdf]" name="menubar" is-config="true" duration-ms="89" started-at="2018-12-18T09:48:13Z" finished-at="2018-12-18T09:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menubar -->
+        <test-method status="PASS" signature="testResult(org.testng.ITestResult)[pri:0, instance:script.Login@5622fdf]" name="testResult" is-config="true" duration-ms="1" started-at="2018-12-18T09:48:13Z" finished-at="2018-12-18T09:48:13Z">
           <params>
             <param index="0">
               <value>
@@ -88,7 +75,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testResult -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.Login@5622fdf]" name="closeApplication" is-config="true" duration-ms="164" started-at="2018-12-14T05:55:59Z" finished-at="2018-12-14T05:55:59Z">
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.Login@5622fdf]" name="closeApplication" is-config="true" duration-ms="113" started-at="2018-12-18T09:48:14Z" finished-at="2018-12-18T09:48:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
